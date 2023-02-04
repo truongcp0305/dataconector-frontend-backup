@@ -1,0 +1,28 @@
+.s-control-input-text {
+    width: auto;
+    height: 25px;
+    border-radius: 3px;
+    border-color: #ddd;
+    padding: 0 5px;
+    outline: 0 !important;
+}
+
+.s-control-label {
+    padding: 2px 8px;
+    border: none !important;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.s-control-title {
+    padding: 2px 8px;
+    color: black !important;
+    font-size: 13px !important;
+    border: none !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}

@@ -1,0 +1,574 @@
+.v-treeview--dense .v-treeview-node__root {
+    min-height: 30px !important;
+}
+
+.kh-side-bar .workspace {
+    position: relative;
+}
+
+.khSidebar .v-navigation-drawer__content .v-input__control .v-input__slot {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.kh-treeview .v-treeview-node__label .side-bar-item {
+    height: 30px !important;
+}
+
+/* .kh-treeview .v-treeview-node__toggle {
+    display: none!important;
+} */
+
+.kh-treeview .new-add-obj {
+    min-height: 25px !important;
+}
+
+.kh-treeview .newFolder {
+    color: #757575 !important;
+    margin-left: 18px;
+    margin-right: 10px;
+}
+
+.kh-treeview .new-obj {
+    background-color: #d4d4d4;
+    border-bottom: 1px solid blue;
+    font-size: 13px;
+}
+
+.kh-treeview .v-treeview-node__root {
+    padding-right: 3px !important;
+}
+
+.kh-treeview input {
+    width: 140px;
+}
+
+.kh-side-bar .star-favorite {
+    color: rgb(88, 88, 86) !important;
+    position: absolute;
+    right: 0px;
+    margin-right: 0px !important;
+}
+
+.kh-side-bar .favorite .star-favorite {
+    color: yellow !important;
+    position: absolute;
+    right: 0px;
+    margin-right: 0px !important;
+}
+
+.kh-treeview .is-star-favorite {
+    color: yellow !important;
+    position: absolute;
+    right: 0px;
+    margin-right: 0px !important;
+}
+
+.kh-treeview .objTitle {
+    padding-bottom: 2px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.kh-treeview .fz-13 {
+    padding: 0px !important;
+}
+
+.kh-treeview .v-treeview-node__root .v-treeview-node__toggle {
+    width: 20px;
+    height: 20px;
+}
+
+.kh-treeview .v-treeview-node__root .v-treeview-node__level {
+    width: 20px !important;
+}
+
+/* .kh-treeview .v-treeview-node {
+    height: 30px!important;
+} */
+
+.context-menu .fs-13 {
+    color: #757575 !important;
+}
+
+.kh-side-bar .workspace .icon-add {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.kh-side-bar .workspace .icon-add:hover {
+    cursor: pointer;
+}
+
+.toggle-sidebar {
+    position: absolute;
+    bottom: 9px !important;
+    left: 0px;
+}
+
+.side-bar-item {
+    background-color: #fff;
+    border: none;
+    width: 100%;
+    justify-content: left;
+    color: #757575 !important;
+}
+
+.side-bar-item .fs-14 {
+    margin-right: 10px;
+}
+
+.favorite .fs-14 {
+    margin-right: 10px;
+    margin-left: 18px;
+}
+
+.favorite .fs-13 {
+    color: #757575 !important;
+}
+
+.context-menu .fs-15 {
+    margin-right: 10px;
+}
+
+.kh-add-node-parent .favorite {
+    margin-left: 9px;
+}
+
+.kh-add-node-parent .v-text-field__slot input {
+    background-color: #d4d4d4;
+    height: 25px;
+}
+
+.kh-side-bar .show {
+    display: block !important;
+}
+
+.kh-add-node-parent > i {
+    float: left;
+}
+
+.kh-add-node-parent .v-list-item {
+    height: 30px;
+    padding: 0px 8px;
+}
+
+/* `````````````````` Css Header````````````````````````````` */
+
+.kh_header {
+    border: 1px solid #cccccc;
+    border-top: none;
+    border-left: none;
+    height: 35px;
+}
+
+.kh_header .row {
+    height: 100%;
+    margin: 0px;
+}
+
+.kh_header .row .col-md-7 {
+    margin-top: 5px !important;
+    padding-left: 27px !important;
+}
+
+.kh_header .row .col-md-7,
+.kh_header .row .col-md-5,
+.kh-toolbox {
+    height: 100%;
+    margin: 0px;
+    padding: 1px 0px;
+}
+
+.kh-toolbox .v-input__control {
+    padding-top: 1px;
+}
+
+.kh-toolbox {
+    float: right;
+    margin-right: 53px;
+}
+
+.kh-toolbox2 {
+    margin-left: auto;
+}
+
+.kh-toolbox2 .v-icon {
+    margin-right: 10px !important;
+    font-size: 16px !important;
+    margin-top: 5px !important;
+}
+
+.kh-toolbox2 i:hover {
+    background-color: #757575;
+    color: #fff;
+}
+
+.kh-slug span {
+    font-size: 14px;
+}
+
+.kh-slug .kh-slug-item {
+    font-weight: 500;
+}
+
+.kh-slug .kh-slug-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.kh-slug .status-view {
+    width: 20px;
+    margin-left: 30px;
+    background-color: #22af51;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.kh-slug .status-editing {
+    width: 20px;
+    margin-left: 30px;
+    background-color: #1478dc;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+/* `````````````````` Css Homepage````````````````````````````` */
+
+/* .image-recentAccess {
+    flex-flow: wrap;
+    overflow: hidden;
+    height: 210px;
+    display: flex;
+    margin-right: -15px;
+    margin-left: -10px;
+} */
+
+.image-recentAccess .preview {
+    height: 120px;
+    overflow: hidden;
+}
+
+.image-recentAccess .quickAccessItem {
+    width: 230px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    margin: 0.5rem !important;
+    height: 170px;
+}
+
+.image-recentAccess .quickAccessItem:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px #ebebeb;
+}
+
+.image-recentAccess img {
+    object-fit: cover;
+    height: 180px;
+}
+
+.image-recentAccess .quickTitle {
+    text-align: left;
+}
+
+.image-recentAccess .quickTitle p {
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #757575;
+    padding-top: 5px;
+}
+
+.kh-homepage {
+    width: 100%;
+}
+
+.kh-table {
+    width: 97%;
+}
+
+.kh-sub-table {
+    width: 97% !important;
+}
+
+.kh-table th {
+    font-size: 14px !important;
+    height: 40px !important;
+}
+
+.kh-table td {
+    color: #757575 !important;
+    font-size: 13px !important;
+    height: 30px !important;
+}
+
+.kh-table .v-data-table {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #e0e0e0;
+}
+
+/* `````````````````` Css Homepage````````````````````````````` */
+
+.kh-editor {
+    height: calc(98vh - 65px);
+    overflow: auto !important;
+    padding: 8px;
+}
+
+.kh-editor-view {
+    height: calc(98vh - 65px);
+    overflow: auto !important;
+    padding: 8px;
+}
+
+#myeditablediv {
+    clear: both;
+}
+
+.kh-editor #editor {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.kh-editor #myeditablediv .mce-item-table {
+    border: 1px solid #bebebe;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.mceTable br[data-mce-bogus='1'] {
+    display: none;
+}
+
+.kh-editor .mceTable {
+    width: 1000px;
+    display: flex;
+}
+
+.kh-editor #myeditablediv {
+    min-height: 100px !important;
+}
+
+#myeditablediv:focus {
+    border: none;
+}
+
+.mce-edit-focus:focus {
+    outline: 0px solid transparent !important;
+}
+
+.kh-editor .codox-styles .codox-container {
+    float: left !important;
+}
+
+/* .kh-editor #myeditablediv .mce-item-table td {
+    min-width: 80px!important;
+} */
+
+.tableHandson:hover {
+    border: 2px solid red;
+}
+
+.kh-editor-view .mceTable table,
+.kh-editor-view .mceTable table th,
+.kh-editor-view .mceTable table td {
+    border: 1px solid #bebebe !important;
+    border-collapse: collapse !important;
+}
+
+.kh-editor-view .mceTable {
+    width: 1000px;
+    display: flex;
+}
+
+.show-content .mceTable table,
+.show-content .mceTable table th,
+.show-content .mceTable table td {
+    border: 1px solid #bebebe !important;
+    border-collapse: collapse !important;
+}
+
+/* `````````````````` Css Sidebar Right````````````````````````````` */
+
+.kh-sidebar-right .fs-16 {
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.kh-sbr-all .sb-top {
+    border-bottom: 1px solid #cccccc;
+}
+
+.kh-sbr-all .sb-top .symper-title,
+.kh-sbr-all .sb-top .r-right {
+    padding: 0px;
+}
+
+.kh-sbr-all .list-item .v-list {
+    padding: 0px !important;
+}
+
+.kh-sbr-all .list-item .v-list .v-list-item {
+    padding: 0px !important;
+}
+
+.kh-sbr-all .list-item .fs-14 {
+    padding-right: 10px;
+}
+
+.kh-sbr-all .list-item .sb-date {
+    padding-left: 54px !important;
+}
+
+.kh-sbr-all .list-item .sb-date-file {
+    padding-left: 22px !important;
+}
+
+.kh-history table tr td {
+    padding-right: 20px !important;
+    padding-left: 2px !important;
+    text-align: center;
+}
+
+.kh-history table tr td:hover {
+    cursor: pointer !important;
+}
+
+.kh-history .td-active {
+    color: #ef6600;
+}
+
+.kh-history .list-log .v-list-item {
+    padding-left: 0px !important;
+}
+
+.kh-history .list-log .v-avatar {
+    height: 40px !important;
+    min-width: 40px !important;
+    width: 40px !important;
+}
+
+.kh-history .list-log .fs-13 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+.kh-history .overflow-y-auto .container {
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+
+.kh-history .overflow-y-auto .container {
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+
+.kh-sidebar-right #toc a {
+    color: #757575 !important;
+    text-decoration: none !important;
+}
+
+.kh-sidebar-right #toc {
+    list-style: none !important;
+    padding-left: 8px !important;
+    padding-top: 5px !important;
+}
+
+.kh-sidebar-right #toc ul {
+    list-style: none !important;
+}
+
+.kh-sidebar-right #toc a:hover {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+
+.kh-comment .v-toolbar__content {
+    border-bottom: 1px solid #cccccc;
+    padding: 0px;
+    padding-left: 8px;
+    height: 33px !important;
+}
+
+.kh-comment .v-toolbar__extension {
+    border-bottom: 1px solid #cccccc !important;
+    padding: 0px !important;
+}
+.kh-comment
+    .v-toolbar__extension
+    .v-item-group
+    .v-slide-group__wrapper
+    .v-slide-group__content
+    .v-tab {
+    padding: 0px !important;
+    padding-right: 16px !important;
+}
+
+.kh-comment .v-toolbar__content .v-toolbar__title {
+    font-weight: 500 !important;
+}
+
+/* Handson table */
+
+.kh-handson-header {
+    padding: 10px;
+    display: flex;
+}
+
+.kh-handson-header .btn-save-handson {
+    display: flex;
+}
+
+.kh-handson-border .ht_master .wtHolder {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 200px;
+}
+
+.kh-handson-border .ht_master .wtHolder .wtHider,
+.kh-handson-border .ht_master .wtHolder .wtHider .wtSpreader,
+.kh-handson-border .ht_master .wtHolder .wtHider .wtSpreader .htCore {
+    width: 100% !important;
+}
+
+.v-autocomplete:not(.v-input--is-focused).v-select--chips input {
+    max-height: unset !important;
+}
+.checkBoxTask {
+    font-size: 13px;
+    height: 22px;
+}
+.checkBoxTask .v-input__control .v-input__slot {
+    margin-top: 8px !important;
+}
+.checkBox
+    .v-input__control
+    .v-input__slot
+    .v-input--selection-controls__input
+    i {
+    font-size: 18px;
+}
+.v-input--selection-controls__ripple {
+    /* border-radius: 50%;
+    cursor: pointer;
+    height: 25px;
+    position: absolute;
+    transition: inherit;
+    width: 25px;
+    left: -8px;
+    top: calc(50% - 20px);
+    margin: 7px; */
+}

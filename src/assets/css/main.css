@@ -1,0 +1,943 @@
+html {
+    /* overflow-x: hidden;
+    overflow-y: hidden!important;
+    overflow: hidden; */
+    overflow-y: auto !important;
+    overflow-x: auto !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    height: 100%;
+}
+
+:root {
+    --symper-background-default: #f2f2f2;
+    --symper-background-active: rgba(0 0 0 / 0.1);
+    --symper-background-hover: rgba(0 0 0 / 0.05);
+    --symper-border: 1px solid rgb(230, 229, 229);
+    --symper-text-color-default: rgb(0 0 0 / 0.8);
+    --symper-font-size-default: 13px;
+    --symper-box-shadow-top: 0px -1px 6px #00000029;
+    --symper-box-shadow-bottom: 0px 3px 6px #00000029;
+    --symper-box-shadow: 0px 0px 12px #00000029;
+    --symper-color: #f58634;
+}
+
+.symper-bg-orange {
+    background-color: #f58634 !important;
+}
+
+/* .symper-app .v-menu__content{
+	overflow:hidden
+}  */
+.d-block {
+    display: block !important;
+}
+
+.sym-tab-slider {
+    height: 100%;
+    width: 100%;
+    color: #f58634;
+    background-color: #f58634;
+}
+
+.symper-text-orange {
+    color: #f58634 !important;
+}
+
+.symper-bg-black {
+    background-color: #344750 !important;
+}
+
+.symper-text-black {
+    color: #344750 !important;
+}
+
+.fs-13 {
+    font-size: 13px !important;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-15 {
+    font-size: 15px !important;
+}
+
+.fs-16 {
+    font-size: 16px !important;
+}
+
+.fs-18 {
+    font-size: 18px !important;
+}
+
+.fs-10 {
+    font-size: 10px !important;
+}
+
+.lh-initial {
+    line-height: initial;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-11 {
+    font-size: 11px !important;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.m-0 {
+    margin: 0px !important;
+}
+
+.p-2 {
+    padding: 0.5rem !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.sym-small-size {
+    font-size: 13px !important;
+    margin-top: 0px;
+}
+
+.sym-small-size.v-input--radio-group .v-icon {
+    font-size: 16px !important;
+}
+
+.sym-small-size.v-input--radio-group .v-messages {
+    display: none;
+}
+
+.sym-small-size.v-input--radio-group .v-label {
+    font-size: 13px !important;
+}
+
+.sym-small-size.v-input--radio-group .v-input--selection-controls__input {
+    margin-right: 0px;
+}
+
+.sym-small-size .v-text-field__details {
+    display: none;
+}
+
+.sym-small-size .v-input__slot,
+.sym-small-size .v-input__control {
+    margin-bottom: 0px !important;
+    min-height: 28px !important;
+}
+
+.sym-small-size .v-text-field__slot input {
+    max-height: 25px !important;
+    padding: 3px 0px 3px !important;
+    font-size: 11px !important;
+    line-height: 19px;
+    border: none!important;
+}
+
+.sym-small-size .v-text-field__slot .v-label {
+    font-size: 11px !important;
+}
+
+.sym-small-size.v-input--switch .v-label,
+.sym-small-size.v-input--checkbox .v-label {
+    font-size: 11px !important;
+}
+
+.sym-small-size.v-input--checkbox .v-icon {
+    font-size: 15px !important;
+}
+
+.sym-small-size.v-input--checkbox .v-input--selection-controls__input {
+    margin-right: 4px !important;
+}
+
+.bg-grey .v-input__slot,
+.bg-grey.v-input.v-textarea .v-input__control,
+.bg-grey.v-input.v-textarea .v-input__control .v-input__slot,
+.bg-grey .v-input__control {
+    background: #f5f5f5 !important;
+}
+
+.sym-small-size.v-input--switch .v-messages,
+.sym-small-size.v-input--checkbox .v-messages {
+    display: none;
+}
+
+.sym-small-size .v-input--switch__track {
+    height: 9px !important;
+    width: 28px !important;
+}
+
+.sym-small-size .v-input--switch__thumb {
+    height: 14px !important;
+    width: 14px !important;
+    top: calc(50% - 10px) !important;
+}
+
+.sym-small-size.v-input--is-label-active .v-input--switch__thumb {
+    transform: translate(18px, 0) !important;
+}
+
+.sym-small-size.v-input--switch .v-input--selection-controls__ripple {
+    left: -12px !important;
+    top: calc(50% - 21px) !important;
+}
+
+.sym-small-size .v-input--selection-controls__ripple {
+    height: 25px !important;
+    width: 25px !important;
+    display: none;
+}
+
+.v-btn {
+    text-transform: initial !important;
+}
+
+/****/
+
+.sym-small-size .v-input__append-inner {
+    margin-top: 2px !important;
+}
+
+.sym-small-size .v-input__icon .mdi {
+    font-size: 17px !important;
+    position: relative !important;
+    margin-top: 0px !important;
+}
+
+.compact-input .v-input__control .v-input__slot {
+    position: relative;
+}
+
+.compact-input .v-input__control .v-input__slot .v-text-field__slot {
+    position: absolute;
+    left: -110px;
+    background: #f5f5f5;
+    height: 28px;
+    top: 0;
+    border-radius: 3px;
+}
+
+.tbl-no-border table tr td {
+    border-bottom: 0 !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.tbl-no-border .v-data-footer {
+    border-top: 0 !important;
+}
+
+.tbl-no-border table tr td,
+.tbl-no-border table tr,
+.tbl-no-border table tbody,
+.tbl-no-border table {
+    border-bottom: 0 !important;
+}
+
+.tbl-no-border table thead th {
+    color: #333 !important;
+}
+
+.compact-input .v-input__control .v-input__slot .v-text-field__slot input:not(:focus) {
+    width: 0;
+    opacity: 0;
+}
+
+.compact-input .v-input__control .v-input__slot .v-text-field__slot input:focus {
+    padding-left: 5px !important;
+    opacity: 1;
+}
+
+.sym-small-pad .v-input__control .v-input__slot,
+.sym-small-pad .v-input__control .v-input__slot {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.fz-13 {
+    font-size: 13px !important;
+}
+
+.h-30 {
+    height: 30px !important;
+}
+
+.v-chip.text-truncate .v-chip__content {
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+.compact-input.sym-small-pad {
+    min-width: 25px;
+    position: relative;
+}
+
+.compact-input.sym-small-pad .v-input__control {
+    position: absolute;
+    top: -18px;
+}
+
+.sym-small-pad .v-input__control .v-input__slot .v-select__selections input {
+    padding: 0 !important;
+    width: 0;
+    opacity: 0;
+}
+
+.sym-small-pad .v-input__control .v-input__slot .v-select__selection--comma {
+    margin-right: 0;
+}
+
+.sym-small-pad .v-input__control .v-input__slot .v-input__append-inner {
+    padding-left: 0;
+}
+
+.sym-small-pad .v-input__control .v-input__slot .v-input__icon {
+    min-width: 10px;
+    width: 10px;
+}
+
+/*Label*/
+
+.sym-small-size .v-label {
+    font-size: 11px !important;
+}
+
+.sym-small-size .v-pagination__item,
+.sym-small-size .v-pagination__navigation {
+    font-size: 13px !important;
+    box-shadow: none !important;
+    height: 20px !important;
+    min-width: 20px !important;
+}
+
+.sym-stepper-content .v-stepper__wrapper {
+    height: 100%;
+}
+
+.sym-stepper-content .v-tabs-items {
+    height: calc(100% - 110px);
+}
+
+.sym-stepper-content .v-window-item {
+    height: 100%;
+}
+
+.v-select__slot .v-chip:not(.v-chip--active) {
+    margin-top: 2px;
+}
+
+.sym-small-size .v-tabs-bar {
+    height: 40px !important;
+}
+
+.sym-small-size .v-tabs-bar .v-tab {
+    text-transform: unset !important;
+    max-width: 200px;
+    font-weight: 400;
+    white-space: nowrap !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content: left;
+    letter-spacing: 0.02em;
+    font-size: 13px;
+}
+
+.sym-small-size .v-badge__badge {
+    font-size: 11px;
+    height: 15px;
+    letter-spacing: 0;
+    line-height: 1;
+    min-width: 15px;
+    padding: 2px 4px;
+}
+
+.symper-custom-table span.colHeader {
+    width: 100%;
+}
+
+.grey-hover:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.mdi.symper-table-dropdown-button {
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+}
+
+.close-tab-btn {
+    position: absolute !important;
+    right: 4px;
+    padding: 0px 1px;
+    top: 13px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    display: none;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+}
+
+.symper-app-tab:hover .close-tab-btn {
+    display: inline-block;
+}
+
+.symper-app-tab {
+    display: inline-block !important;
+    line-height: 40px !important;
+    /* width: 200px!important; */
+}
+
+.top-right {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.close-btn {
+    cursor: pointer;
+    line-height: 16px;
+    padding: 2px 3px;
+    border-radius: 50%;
+}
+
+.close-btn:hover {
+    background-color: #f1f1f1;
+}
+
+.sym-document-tab-control .tf-search-control .v-input__slot {
+    min-height: 25px !important;
+}
+
+.list-control-autocomplete .tf-search-control .v-input__slot {
+    min-height: 25px !important;
+}
+
+.tox-notifications-container {
+    display: none !important;
+}
+
+.tox-tinymce-inline {
+    /* display: block !important; */
+}
+
+.mh-15 {
+    min-height: 15px;
+}
+
+#rowDrag input:focus {
+    outline: auto;
+    padding: 0 4px;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #797979 !important;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    color: #797979 !important;
+}
+
+::placeholder {
+    color: #797979 !important;
+}
+
+.sym-small-size .v-treeview-node__root {
+    min-height: 25px !important;
+}
+
+.sym-document__side-bar-left .v-expansion-panel::before {
+    box-shadow: none;
+}
+
+.sym-document__side-bar-right .v-expansion-panel::before {
+    box-shadow: none;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+/* kệ khá nhé */
+
+/* Khá không thích điều này nên đã comment lại */
+
+/* .v-navigation-drawer__content .mdi {
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+/* are you ok? */
+
+/** Custom hiển thị của input theo phong cách Symper **/
+
+.sym-style-input:not(.v-input--checkbox) .v-input__slot {
+    background-color: #fbfbfb !important;
+}
+
+.sym-style-input input::placeholder {
+    color: #c5c5c5 !important;
+    opacity: 1 !important;
+    /* Firefox */
+}
+
+.sym-style-input input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #c5c5c5 !important;
+}
+
+.sym-style-input input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #c5c5c5 !important;
+}
+
+.sym-style-input.v-input--checkbox .v-label {
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.sym-style-input.v-input--selection-controls {
+    padding-top: 0px !important;
+}
+
+.sym-style-input:not(.v-input--checkbox) {
+    border: 1px solid #efefef !important;
+}
+
+.sym-global-small-item .v-application>.v-menu__content .v-list-item {
+    min-height: 30px !important;
+    padding: 0px 8px !important;
+}
+
+.sym-small-size.v-expansion-panels .v-expansion-panel-header {
+    max-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    min-height: 30px;
+}
+
+.sym-small-size.v-expansion-panels .v-expansion-panel-header.active {
+    max-height: 35px;
+    padding: 8px;
+    min-height: 35px;
+}
+
+.sym-small-size.v-expansion-panels .v-expansion-panel-content__wrap {
+    padding-left: 12px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+}
+
+.sym-small-size.v-autocomplete>.v-input__control .v-select__selections {
+    min-height: 22px !important;
+}
+
+.sym-small-size.v-autocomplete>.v-input__control .v-select__selections {
+    padding: 0px !important;
+}
+
+.sym-small-size.v-autocomplete>.v-input__control>.v-input__slot {
+    padding: 0px 12px !important;
+}
+
+.v-size--x-small .v-chip__close {
+    font-size: 13px !important;
+}
+
+.v-overlay .v-overlay--absolute {
+    z-index: 200 !important;
+}
+
+.btn-fixed-bottom {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.right-100 {
+    right: 230px;
+}
+
+.detail-view {
+    border: none !important;
+}
+
+.label {
+    font-size: 13px;
+    text-shadow: 0 0 0;
+}
+
+.sym-small-lineheight .v-input__control .v-input__slot .v-text-field__slot textarea {
+    line-height: 18px !important;
+}
+
+.sym-pad-0 .v-input__slot {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.hide-process-palette .djs-palette {
+    display: none !important;
+}
+
+.hide-process-palette .djs-context-pad.open {
+    /* display: none !important; */
+}
+
+.border-top-1 {
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+.border-left-1 {
+    border-left: 1px solid rgb(224, 224, 224);
+}
+
+.border-bottom-1 {
+    border-bottom: 1px solid rgb(224, 224, 224) !important;
+}
+
+.border-right-1 {
+    border-right: 1px solid rgb(224, 224, 224);
+}
+
+.border-all {
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.border-lightgrey {
+    border: 1px solid lightgrey !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid lightgrey !important;
+}
+
+.mt-s10 {
+    margin-top: -10px !important;
+}
+
+.ps-container .ps__rail-y,
+.ps-container .ps__rail-x {
+    z-index: 1;
+}
+
+.editor-tree-active {
+    background: #f2f2f2;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.symper-title {
+    font-size: 17px !important;
+    font-weight: 500 !important;
+}
+
+.position-absolute {
+    position: absolute !important;
+}
+
+.symper-tab-active {
+    background-color: #f5f5f5 !important;
+}
+
+.htContextMenu table.htCore {
+    border-width: 0.2px 0.2px 0.2px 0.2px !important;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.w-auto {
+    width: 100% !important;
+}
+
+#symper-app .dialog-preview-image-comment {
+    overflow: hidden;
+}
+
+.v-btn--tile {
+    border-radius: 4px;
+}
+
+/* font */
+
+.font-normal {
+    font-size: 13px !important;
+    font-family: Roboto !important;
+    font-weight: normal !important;
+}
+
+.fw-430 {
+    font-weight: 430;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.color-red {
+    color: red !important;
+}
+
+.color-orange {
+    color: orange !important;
+}
+
+.color-grey {
+    color: grey !important;
+}
+
+.color-green {
+    color: green !important;
+}
+
+.color-blue {
+    color: blue !important;
+}
+
+.color-black {
+    color: black !important;
+}
+
+.color-normal {
+    color: #707070 !important;
+}
+
+.v-navigation-drawer--fixed {
+    z-index: 7 !important;
+}
+
+.symper-list-item-current-row,
+.symper-list-item-current-row+.current.highlight,
+.list-sbs .symper-list-item-current-row-sbs,
+.list-sbs .symper-list-item-current-row-sbs+.current.highlight {
+    background-color: #4c89fc33 !important;
+}
+
+.symper-monaco-editor .editor-widget.suggest-widget {
+    max-width: 80% !important;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active below version 2.1.8 */
+    {
+    opacity: 0;
+}
+
+.hidden-textarea-for-copy {
+    position: fixed;
+    top: -1000px;
+    left: -1000px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-scroll {
+    overflow: scroll !important;
+}
+
+/*
+	dev create: dungna
+	date create: 2020/08/12
+	description: customicon cho monaco-editor icon 
+ */
+.codicon-symbol-enum:before {
+    content: '\F0DC9' !important;
+    font: normal normal normal 15px/1 'Material Design Icons' !important;
+}
+
+.codicon-symbol-file:before {
+    content: '\F0679' !important;
+    font: normal normal normal 15px/1 'Material Design Icons' !important;
+}
+
+.codicon-symbol-enum-member:before {
+    content: '\F03A0' !important;
+    font: normal normal normal 15px/1 'Material Design Icons' !important;
+}
+
+.codicon-symbol-text:before {
+    content: '\F07F5' !important;
+    font: normal normal normal 15px/1 'Material Design Icons' !important;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.ag-watermark,
+.ag-watermark-text {
+    visibility: collapse !important;
+    display: none !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.v-tabs-slider-wrapper {
+    transition: 0.1s cubic-bezier(0.25, 0.8, 0.5, 1) !important;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* custom scroll */
+::-webkit-scrollbar {
+    height: 8px !important;
+    width: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 104px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: lightgrey;
+}
+
+.resizable-component>.resizable-r {
+    width: 8px !important;
+}
+
+/* custom scroll */
+
+.v-list-item--dense,
+.v-list--dense .v-list-item {
+    min-height: 30px !important;
+}
+
+.resizable-component>.resizable-r {
+    width: 8px !important;
+}
+
+.v-tab {
+    letter-spacing: unset !important;
+}
+
+.v-card__actions {
+    align-items: center;
+    display: flex;
+    padding: 8px 14px 8px 20px;
+}
+
+.c-login-input {
+    position: relative;
+    z-index: 1;
+}
+
+.c-login-input__title {
+    position: absolute;
+    z-index: 2;
+    top: -5px;
+    left: 32px;
+    font-size: 12px;
+}
+
+.c-login-input .activeClass {
+    color: #f68e35;
+}
+
+.login-container {
+    margin: 20px 16px 0 16px;
+}
+
+.c-login-input .v-input {
+    margin: 0;
+}
+
+.elevation-6 {
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12) !important;
+}
+.symper-rotating {
+    -webkit-animation: vac-spin 1s linear infinite;
+}
+
+
+._hj-RCGJ4__MinimizedWidgetBottom__left{
+    bottom: 50px !important;
+    left: 8px!important;
+}

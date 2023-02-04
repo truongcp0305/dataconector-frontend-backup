@@ -1,0 +1,36 @@
+.vac-card-window {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    background: var(--chat-content-bg-color);
+    color: var(--chat-color);
+    overflow-wrap: break-word;
+    position: relative;
+    white-space: normal;
+    border: 1px solid rgb(230, 229, 229);
+    -webkit-tap-highlight-color: transparent;
+
+    * {
+        font-family: inherit;
+    }
+
+    a {
+        color: #0d579c;
+        font-weight: 500;
+    }
+
+    .vac-chat-container {
+        height: 100%;
+        display: flex;
+
+        input {
+            min-width: 10px;
+        }
+
+        textarea,
+        input[type='text'],
+        input[type='search'] {
+            -webkit-appearance: none;
+        }
+    }
+}

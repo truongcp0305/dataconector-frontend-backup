@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: nginx-apps
+    labels:
+        tier: frontend
+spec:
+    replicas: 2
+    selector:
+        matchLabels:
+            app: nginx-apps
+            tier: frontend
+    template:
+        metadata:
+            labels:
+                app: nginx-apps
+                tier: frontend
+        spec:
+            volumes:
+                - name: config
+                  configMap:
+                      name: nginx-config-apps
+                      items:
+                          - key: config
+                            path: apps.symper.vn.conf
+                - name: config-env
+                  configMap:
+                      name: env-config-apps
+            imagePullSecrets:
+                - name: regcred
+            containers:
+                - name: nginx-apps
+                  image: registry.symper.vn/{SYMPER_IMAGE}
+                  lifecycle:
+                      postStart:
+                          exec:
+                              command:
+                                  [
+                                      '/bin/sh',
+                                      '-c',
+                                      'cp env.js /var/www/apps.symper.vn',
+                                  ]
+                  ports:
+                      - containerPort: 80
+                  volumeMounts:
+                      - name: config
+                        mountPath: /etc/nginx/conf.d
+                      - name: config-env
+                        mountPath: /src
